@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+/* font-family: 'Merriweather', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: 'Raleway', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.hero-text-bg {
+  position: absolute;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 40%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  top: 30%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  min-height: 500px;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-family: "Merriweather", serif;
+}
+.hero-rm {
+  box-sizing: border-box;
+
+
+background: rgb(4,3,32);
+background: linear-gradient(117deg, rgba(4,3,32,1) 14%, rgba(7,7,105,1) 46%, rgba(19,106,190,1) 96%);
+  min-height: 30vh;
+}
+.nav-link {
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+.nav-item:hover {
+  border-bottom: 5px solid #1a0855;
+}
+.about-us{
+    margin: 0px !important;
+    background-color: #fff;
+}
+.services{
+    background-color: #F0F0F0;
+
+}
+.services-heading h2,
+.service-head h3,
+.about-heading h2{
+  font-family: "Merriweather", serif;
+}
+.mentor-heading h2,
+.collabs-heading h2{
+  line-height: 2;
+  letter-spacing: 3px;
+  text-decoration: underline;
+}
+.mentor-heading p,
+.collabs-heading p{
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  font-family: "Merriweather", serif;
+}
+.collabs{
+     background-color: #F0F0F0;
+
+}
+@media screen and (max-width:411px) {
+  .box-desc p{
+    font-size: 0.8rem;
+  }
+  .about-desc p{
+    font-size: 0.8rem !important;
+  }
+  .services-heading  {
+    width: 100% !important;
+    
+  }
+  .box{
+    padding: 0px !important;
+  }
+  
+}
+
+
+.btn-primary{
+  background: color #2251ff !important;
+  padding:10px 30px ;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-radius: 8px;
+}
+.btn-primary:hover{
+  background: #030f37 !important;
+  
+}
+.footer-logo{
+    max-width: 100%;
+    height: auto;
+    width: 125px;
+}
+.contact-area {
+            padding: 60px 0;
+           /* min-height: 100vh;*/
+        }
+ .footer-ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+.contact-area {
+    border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+    font-size: 15px;
+    margin: 30px 0 60px;
+    position: relative;
+}
+
+.contact-content p::after {
+    background: #353C46;
+    bottom: -30px;
+    content: "";
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    width: 80%;
+}
+
+.contact-content h6 {
+    color: #8b9199;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact-content span {
+    color: #353c47;
+    margin: 0 10px;
+}
+
+.contact-social {
+    margin-top: 30px;
+}
+
+.contact-social > ul {
+    display: inline-flex;
+}
+
+.contact-social ul li a {
+    border: 1px solid #8b9199;
+    color: #8b9199;
+    display: inline-block;
+    height: 40px;
+    margin: 0 10px;
+    padding-top: 7px;
+    transition: all 0.4s ease 0s;
+    width: 40px;
+}
+
+.contact-social ul li a:hover {
+    border: 1px solid #FAB702;
+    color: #FAB702;
+}
+
+.contact-content img {
+    max-width: 210px;
+}
+
+.contact-area , 
+footer {
+    background: #1A1E25;
+    color: #868c96;
+}
+
+footer p {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer img {
+    width: 44px;
+}
+.box{
+  padding: 20px;
+}
+
