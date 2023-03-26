@@ -9,7 +9,7 @@
 * {
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  /* color: #fff; */
 }
 #myVideo {
   position: absolute;
